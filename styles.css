@@ -215,3 +215,33 @@ h3 { font-size: 1.45rem; }
 .skip { position: absolute; left: -999px; }
 .skip:focus { left: 12px; top: 12px; background: var(--forest); color: var(--cream); padding: 8px 14px; z-index: 20; }
 :focus-visible { outline: 2px solid var(--ochre); outline-offset: 3px; }
+
+/* ---------- Directory and Get Involved boards ---------- */
+.board { padding-bottom: 80px; }
+.chip-row { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 2rem; }
+.chip {
+  font-family: var(--serif-display); font-size: 0.95rem; text-decoration: none;
+  color: var(--forest); border: 1px solid var(--forest-soft); border-radius: 999px; padding: 7px 16px;
+}
+.chip:hover { background: var(--forest); color: var(--cream); }
+.dir-cat { padding: 40px 0; border-top: 1px solid var(--line); scroll-margin-top: 20px; }
+.dir-cat-head { max-width: 640px; margin-bottom: 1.5rem; }
+.dir-cat-head h2 { font-size: clamp(1.6rem, 3vw, 2.1rem); margin-bottom: .3rem; }
+.dir-cat-head p { margin: 0; color: var(--forest-soft); }
+.dir-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 20px; }
+.listing { background: #fff; border: 1px solid var(--line); border-radius: 6px; padding: 22px; }
+.listing h3 { font-size: 1.3rem; margin: .4rem 0 .3rem; }
+.listing p { margin: 0 0 .8rem; font-size: 1.02rem; color: var(--forest-soft); }
+.listing .listing-meta { font-family: var(--serif-display); font-size: .82rem; letter-spacing: .08em; text-transform: uppercase; }
+.listing-empty {
+  background: var(--cream-deep); border-style: dashed; display: flex; flex-direction: column;
+  justify-content: center; min-height: 140px;
+}
+.listing-empty p { margin-bottom: .4rem; }
+.cta-band {
+  margin-top: 40px; padding: clamp(28px, 5vw, 48px); border-radius: 6px; text-align: center;
+  background-color: var(--cream-deep); background-image: url("images/pattern.png"); background-size: 520px auto;
+}
+.cta-card { background: var(--cream); max-width: 560px; margin: 0 auto; padding: clamp(24px, 4vw, 40px); border-radius: 6px; }
+.cta-card h2 { margin-bottom: .4rem; }
+.cta-card p { color: var(--forest-soft); margin: 0 0 1.4rem; }
