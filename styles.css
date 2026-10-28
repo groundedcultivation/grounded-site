@@ -276,3 +276,15 @@ h3 { font-size: 1.45rem; }
 }
 .books-grid { grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); }
 @media (max-width: 400px) { .books-grid { grid-template-columns: 1fr; } }
+
+/* About page: photo beside the opening paragraph */
+.about-intro {
+  display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  gap: clamp(24px, 4vw, 56px); align-items: center; padding-bottom: 24px;
+}
+.about-intro img { width: 100%; border-radius: 6px; }
+.about-intro p { margin: 0; font-size: 1.25rem; max-width: 34ch; }
+@media (max-width: 760px) {
+  .about-intro { grid-template-columns: 1fr; }
+  .about-intro p { max-width: none; }
+}
