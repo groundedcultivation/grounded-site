@@ -248,3 +248,18 @@ h3 { font-size: 1.45rem; }
 
 /* Homepage header has no small logo: keep the menu on the right */
 .header-inner.no-brand { justify-content: flex-end; }
+
+/* Two-card grid (homepage doors) */
+.grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 32px; }
+@media (max-width: 860px) { .grid-2 { grid-template-columns: 1fr; gap: 28px; } }
+
+/* Resources page entries */
+.resource h3 { margin-top: 0; }
+.resource h3 a { color: var(--forest); text-decoration: none; }
+.resource h3 a:hover { text-decoration: underline; }
+.resource h3 a::after { content: " \2197"; font-size: .8em; color: var(--ochre); }
+.resource .listing-meta { margin-bottom: .6rem; }
+.resource p:last-child { margin-bottom: 0; }
+
+/* Contact page */
+.contact-email { font-family: var(--serif-display); font-size: clamp(1.4rem, 3.5vw, 2rem); margin: 0 0 1.5rem; overflow-wrap: anywhere; }
