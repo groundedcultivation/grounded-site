@@ -263,3 +263,16 @@ h3 { font-size: 1.45rem; }
 
 /* Contact page */
 .contact-email { font-family: var(--serif-display); font-size: clamp(1.4rem, 3.5vw, 2rem); margin: 0 0 1.5rem; overflow-wrap: anywhere; }
+
+/* Book entries with a cover tile */
+.resource.book { display: flex; gap: 16px; align-items: flex-start; }
+.book-cover {
+  flex: 0 0 80px; width: 80px; height: auto;
+  border-radius: 3px; box-shadow: 0 1px 3px rgba(35,56,42,.25);
+}
+.book-cover-blank { height: 120px;
+  background-color: var(--cream-deep); background-image: url("images/pattern.png");
+  background-size: 220px auto; background-position: center;
+}
+.books-grid { grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); }
+@media (max-width: 400px) { .books-grid { grid-template-columns: 1fr; } }
