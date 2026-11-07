@@ -355,3 +355,8 @@ h3 { font-size: 1.45rem; }
 .farm-social { margin: .6rem 0 0; font-family: var(--serif-display); font-size: 1rem; }
 .farm-social a { color: var(--sage); }
 .farm-social a::after { content: " \2197"; font-size: .8em; color: var(--ochre); }
+
+/* Research page photo */
+.research-photo { margin: 0 0 1.4rem; }
+.research-photo img { width: 100%; max-width: 420px; border-radius: 6px; }
+.research-photo figcaption { font-size: .9rem; font-style: italic; color: var(--forest-soft); margin-top: .5rem; }
