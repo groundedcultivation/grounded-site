@@ -360,3 +360,7 @@ h3 { font-size: 1.45rem; }
 .research-photo { margin: 0 0 1.4rem; }
 .research-photo img { width: 100%; max-width: 420px; border-radius: 6px; }
 .research-photo figcaption { font-size: .9rem; font-style: italic; color: var(--forest-soft); margin-top: .5rem; }
+
+/* Research page paper lists */
+.research-papers { padding-top: 0; }
+.research-papers .dir-cat:first-child { border-top: 0; padding-top: 8px; }
