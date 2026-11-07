@@ -350,3 +350,8 @@ h3 { font-size: 1.45rem; }
 /* Farm profile header without the map */
 .farm-hero.farm-hero-solo { grid-template-columns: 1fr; }
 .farm-hero-solo .farm-hero-lede { max-width: 46ch; }
+
+/* Farm social link under the farm name */
+.farm-social { margin: .6rem 0 0; font-family: var(--serif-display); font-size: 1rem; }
+.farm-social a { color: var(--sage); }
+.farm-social a::after { content: " \2197"; font-size: .8em; color: var(--ochre); }
