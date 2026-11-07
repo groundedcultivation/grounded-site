@@ -346,3 +346,7 @@ h3 { font-size: 1.45rem; }
   flex: 0 0 80px; width: 80px; height: 80px; object-fit: cover;
   border-radius: 4px; box-shadow: 0 1px 3px rgba(35,56,42,.2); background: #fff;
 }
+
+/* Farm profile header without the map */
+.farm-hero.farm-hero-solo { grid-template-columns: 1fr; }
+.farm-hero-solo .farm-hero-lede { max-width: 46ch; }
