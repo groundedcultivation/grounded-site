@@ -289,7 +289,7 @@ h3 { font-size: 1.45rem; }
   .about-intro p { max-width: none; }
 }
 
-/* ---------- Native Soil Network: farm tiles ---------- */
+/* ---------- Farms page: farm tiles ---------- */
 .farm-board { padding-bottom: 56px; }
 .farm-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 28px; }
 .farm-tile {
@@ -338,4 +338,11 @@ h3 { font-size: 1.45rem; }
   .farm-hero { grid-template-columns: 1fr; }
   .farm-hero-map { max-width: 320px; }
   .glance div { grid-template-columns: 1fr; gap: 2px; }
+}
+
+/* Resource entries with a square thumbnail */
+.resource.with-thumb { display: flex; gap: 16px; align-items: flex-start; }
+.resource-thumb {
+  flex: 0 0 80px; width: 80px; height: 80px; object-fit: cover;
+  border-radius: 4px; box-shadow: 0 1px 3px rgba(35,56,42,.2); background: #fff;
 }
