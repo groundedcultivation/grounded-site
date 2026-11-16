@@ -364,3 +364,17 @@ h3 { font-size: 1.45rem; }
 /* Research page paper lists */
 .research-papers { padding-top: 0; }
 .research-papers .dir-cat:first-child { border-top: 0; padding-top: 8px; }
+
+/* Research page: pilot study text with photo on the right */
+.pilot {
+  display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 4fr);
+  gap: clamp(24px, 4vw, 56px); align-items: start; padding-bottom: 24px;
+}
+.pilot h2 { margin-top: 0; font-size: 1.9rem; }
+.pilot-text p { max-width: 62ch; }
+.pilot-photo { margin: 0; }
+.pilot-photo img { width: 100%; border-radius: 6px; }
+@media (max-width: 760px) {
+  .pilot { grid-template-columns: 1fr; }
+  .pilot-photo { max-width: 420px; }
+}
