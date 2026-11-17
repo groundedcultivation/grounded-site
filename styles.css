@@ -378,3 +378,10 @@ h3 { font-size: 1.45rem; }
   .pilot { grid-template-columns: 1fr; }
   .pilot-photo { max-width: 420px; }
 }
+
+/* Consulting page */
+.prose.consulting { padding-bottom: clamp(48px, 7vw, 72px); }
+.prose.consulting h2:first-child { margin-top: 0; }
+#get-in-touch .contact-email { margin: 0; }
+#get-in-touch .newsletter-card > p:first-of-type { margin-bottom: .6rem; }
+#get-in-touch .contact-email { font-size: clamp(1.05rem, 4.6vw, 2rem); }
