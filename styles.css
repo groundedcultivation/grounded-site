@@ -388,9 +388,6 @@ h3 { font-size: 1.45rem; }
 #get-in-touch .contact-email { font-size: clamp(1.05rem, 4.6vw, 2rem); }
 
 /* ---------- New branding (Nov 2026): rising sun ---------- */
-/* small sun before section labels */
-.eyebrow { display: flex; align-items: center; gap: 10px; color: var(--forest-soft); }
-.eyebrow::before { content: ""; flex: 0 0 26px; height: 14px; background: url("images/sun-icon.svg") no-repeat center / contain; }
 /* footer logo (cream version) */
 .footer-logo { width: 220px; height: auto; margin: 0 0 1rem; }
 .site-footer { background: #17261B; }
